@@ -8,7 +8,7 @@
 - **Ctrl + L:** clear, clear the terminal (CMD + K for Mac).
 
 ## Files and directories
-- **man <command>**
+- **man `command`**
     open the manual
 - **pwd**
     shows the current directory
@@ -32,14 +32,14 @@
     sort by size
 
 ## Getting file information
-- **file <file name>**
+- **file `file name`**
     show full file information
-- **stat <file name>**
+- **stat `file name`**
     show file permissions and modifications
 
 ## Creating directories with mkdir
 - **mkdir**
-    create directories
+    &emsp;create directories
 - **-p**
     parents, create multiple folders, example: `site/src/adm site/src/public site/src/assets`
 - **touch**
