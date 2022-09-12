@@ -51,8 +51,7 @@
 - **rm** <br/>
     &emsp;permanently remove files and folders `rm -r`, if you want to forcibly remove it you can use `-f` too
 - **wildcards** <br/>
-    &emsp;are * and ?, in the case of *, all files with the first letters fil, would be moved to the &emsp;Directory folder, that is, if I had 3 files with names file1 file2 and file3, or even 500 files &emsp;with the first 3 letters in their name being `fil*`, would be moved to the Directory folder.
-    &emsp;In the case of ?, we would be moving only the folders with a number at the end, making the command &emsp;ignore the site folder and the site67 folder, as only one digit after the wildcard is passed. <br/>
+    &emsp;are * and ?, in the case of *, all files with the first letters fil, would be moved to the Directory folder, that is, if I had 3 files with names file1 file2 and file3, or even 500 files with the first 3 letters in their name being `fil*`, would be moved to the Directory folder. In the case of ?, we would be moving only the folders with a number at the end, making the command ignore the site folder and the site67 folder, as only one digit after the wildcard is passed. <br/>
     &emsp;Example *: `mv fil* directory` <br/>
     &emsp;Example ?: `mv -r site? directory`
 - **find** <br/>
