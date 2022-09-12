@@ -52,14 +52,14 @@
     &emsp;permanently remove files and folders `rm -r`, if you want to forcibly remove it you can use `-f` too
 - **wildcards** <br/>
     &emsp;are * and ?, in the case of *, all files with the first letters fil, would be moved to the &emsp;Directory folder, that is, if I had 3 files with names file1 file2 and file3, or even 500 files &emsp;with the first 3 letters in their name being `fil*`, would be moved to the Directory folder.
-    &emsp;In the case of ?, we would be moving only the folders with a number at the end, making the command &emsp;ignore the site folder and the site67 folder, as only one digit after the wildcard is passed.
-    &emsp;Example *: `mv fil* directory`
+    &emsp;In the case of ?, we would be moving only the folders with a number at the end, making the command &emsp;ignore the site folder and the site67 folder, as only one digit after the wildcard is passed. <br/>
+    &emsp;Example *: `mv fil* directory` <br/>
     &emsp;Example ?: `mv -r site? directory`
 - **find** <br/>
-    &emsp;find files or folders, `find .` will search in the current directory, `-type` select the type of &emsp;file `f`/directory `d` to search, `-name` select what I want to have in the name of the file/folder &emsp;I'm looking for. Full example:
+    &emsp;find files or folders, `find .` will search in the current directory, `-type` select the type of file `f`/directory `d` to search, `-name` select what I want to have in the name of the file/folder I'm looking for. Full example: <br/>
     &emsp;`find . -type f -name "*.jpg"`
 - **cat and less** <br/>
-    &emsp;show the contents of files, less has the same idea as the manual, that is, you can press h and see &emsp;how to use less in more detail and cat will print the file content directly on the screen, making &emsp;it possible to move up and down the content with the mouse scroll
+    &emsp;show the contents of files, less has the same idea as the manual, that is, you can press h and see how to use less in more detail and cat will print the file content directly on the screen, making it possible to move up and down the content with the mouse scroll
 - **nano and vim** <br/>
-    &emsp;both edit files, it's a text editor, however, you can't use your mouse, to navigate use the &emsp;keyboard arrows, and below is the legend of what can be done, through the Ctrl key and some more &emsp;letters. For example, the combination 'Ctrl + O' would save this file, but first you would be asked &emsp;if you want to save the file with the same name, if you answer no, you will be shown a screen to &emsp;change the file name. To close nano, the shortcut is 'Ctrl + X'.
-    &emsp;Vim is much more complex than nano, and you can insert plugins into it, making it more powerful. To &emsp;exit vim, use the `:q` command. However, if you have made any changes, it will need either the &emsp;`:wq` command, to confirm, write these changes and exit, or the `:q!` command, which cancels the &emsp;changes
+    &emsp;both edit files, it's a text editor, however, you can't use your mouse, to navigate use the keyboard arrows, and below is the legend of what can be done, through the Ctrl key and some more letters. For example, the combination 'Ctrl + O' would save this file, but first you would be asked if you want to save the file with the same name, if you answer no, you will be shown a screen to change the file name. To close nano, the shortcut is 'Ctrl + X'. <br/>
+    &emsp;Vim is much more complex than nano, and you can insert plugins into it, making it more powerful. To exit vim, use the `:q` command. However, if you have made any changes, it will need either the `:wq` command, to confirm, write these changes and exit, or the `:q!` command, which cancels the changes
