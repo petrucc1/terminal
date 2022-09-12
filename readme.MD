@@ -1,4 +1,4 @@
-## <!-- Shortcuts -->
+## Shortcuts
 - **Up - Down:** see your previous commands;
 - **Ctrl + arrows:** skip words (Mac option + arrows);
 - **Ctrl + A:** go to the beginning of the line;
@@ -7,7 +7,7 @@
 - **Ctrl + K:** erases everything on the line up to where the cursor is positioned;
 - **Ctrl + L:** clear, clear the terminal (CMD + K for Mac).
 
-## <!-- Files and directories -->
+## Files and directories
 - **man <command>**
     open the manual
 - **pwd**
@@ -31,13 +31,13 @@
 - **-S**
     sort by size
 
-## <!-- Getting file information -->
+## Getting file information
 - **file <file name>**
     show full file information
 - **stat <file name>**
     show file permissions and modifications
 
-## <!-- Creating directories with mkdir -->
+## Creating directories with mkdir
 - **mkdir**
     create directories
 - **-p**
