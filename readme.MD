@@ -38,8 +38,8 @@
     show file permissions and modifications
 
 ## Creating directories with mkdir
-- **mkdir**
-    &emsp;create directories
+- **mkdir**  
+create directories
 - **-p**
     parents, create multiple folders, example: `site/src/adm site/src/public site/src/assets`
 - **touch**
